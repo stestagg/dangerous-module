@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/sys
+   */site-packages/sys
+
+[run]
+branch = true
+source =
+    sys
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
